@@ -1,0 +1,127 @@
+body{
+    background-color:#d3fffe;
+}
+
+/* Header Component */
+/* Nav Component */
+nav{
+    background-color: white;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2.5em 5em;
+}
+
+.nav-item-pointed{
+    color: #524261;
+    padding: 0.5em;
+    font-weight: 450;
+    font-stretch: condensed;
+    transition-property: color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+}
+.nav-item-pointed:hover{
+    text-decoration: none;
+    color: #0056b3;
+}
+
+#register{
+    font-weight: 350;
+    border: 2px solid purple;
+    padding: 0.5em 2em;
+}
+
+#register:hover{
+    background-color: #d8d8d8;
+}
+
+/* Landing Page Jumbotron */
+.greeting{
+    margin: auto;
+}
+
+#husband-wife{
+    font-family: 'Dancing Script', cursive;
+}
+
+.display-2{
+    margin-bottom: 0.4em;
+}
+
+.jumbotron{
+    text-align: center;
+    background-color: inherit;
+    color: white;
+}
+
+.rsvp{
+    margin-top: 7em;
+    background-color: #9761e8;
+    border: none;
+    width: 8em;
+}
+
+.rsvp:hover{
+    background-color: #7d4fc1;
+}
+
+/* OurStory Page */
+.our-story-title{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 3em;
+    color: #79b56a;
+}
+
+#flower{
+    display: block;
+    margin: 0 auto;
+}
+
+.our-story-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5em;
+}
+
+.card{
+    width: 30%;
+    text-align: center;
+    font-family: 'News Cycle', sans-serif;
+    font-weight: 200;
+    background-color: inherit;
+    border: hidden 5px;
+    border-radius: 50%;
+}
+
+/* Footer Component */
+footer{
+    padding: 2em;
+    background-color: #404144;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-container{
+    display: flex;
+}
+
+.copyright{
+    display: inline-flex;
+    margin-left: 5em;
+}
+
+.sns{
+    color: white;
+}
+
+#sns{
+    display: inline-flex;
+    padding: 0 12em;
+    justify-content: space-evenly;
+}
