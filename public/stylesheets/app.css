@@ -69,7 +69,7 @@ nav{
 }
 
 /* OurStory Page */
-.our-story-title{
+.title{
     text-align: center;
     font-family: 'Dancing Script', cursive;
     margin-top: 3em;
@@ -102,9 +102,9 @@ footer{
     padding: 2em;
     background-color: #404144;
     color: white;
-    position: absolute;
+    display: flex;
+    align-items: flex-end;
     width: 100%;
-    bottom: 0;
 }
 
 .footer-container{

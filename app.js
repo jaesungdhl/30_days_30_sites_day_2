@@ -13,6 +13,10 @@ app.get("/ourstory", (req,res) => {
     res.render("OurStory");
 })
 
+app.get("/thewedding", (req,res) => {
+    res.render("TheWedding");
+})
+
 app.listen(process.env.port || 3000, () =>{
     console.log("Server started running.")
 })
